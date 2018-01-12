@@ -26,6 +26,19 @@ nav span{
   display: inline-block;
   padding: 10px 10px;
 }
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 5px;
+  padding-top: 0;
+}
+footer h5{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 .logo{
   display: flex;
   flex-grow: 1;
@@ -87,19 +100,35 @@ nav span{
   display: flex;
   width: 1200px;
   height: 500px;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-content: center;
   margin: 0 auto;
   background-image: url('location-background.jpg');
+
+}
+.squares{
+  display: flex;
+  margin: 0;
 }
 .location-square{
   background-color: black;
   opacity: 1;
   width: 300px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
+
 }
 .location-square span{
   display: block;
   padding: 15px 0;
+}
+.location-header{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+#copyright{
+  margin-left: 20px;
+  text-align: left;
 }
